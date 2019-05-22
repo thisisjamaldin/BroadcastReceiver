@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvWiFiState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:text="Wifi status"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvBluetoothState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:text="Bluetooth status"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvChargeState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:text="Charging status"/>
+
+
+</LinearLayout>
